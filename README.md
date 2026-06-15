@@ -36,7 +36,14 @@ The MASt3R `curope` CUDA RoPE extension is optional for this release path. If it
 
 ## Preparation
 
-We use the [C3VD](https://durrlab.github.io/C3VD/) dataset and the C3VDv2 degradation benchmark prepared from it. Please download the dataset from the official C3VD page and organize the processed C3VDv2 sequences following the structure below.
+We use the [C3VD](https://durrlab.github.io/C3VD/) dataset and the C3VDv2 degradation benchmark prepared from it. We also provide the processed benchmark data: [Google Drive](https://drive.google.com/open?id=1ZIwVBhG1EkHJU3KLyrnnIYYK-rTmUfuO).
+
+Download the archive and extract it under `data`:
+
+```bash
+mkdir -p data
+tar -xzf EndoMD-SLAM_C3VDv2_degradation.tar.gz -C data
+```
 
 Download the MASt3R checkpoints and put them under `MASt3R-SLAM/checkpoints`:
 
@@ -59,7 +66,7 @@ MASt3R-SLAM/checkpoints/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric_retriev
 MASt3R-SLAM/checkpoints/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric_retrieval_codebook.pkl
 ```
 
-After the C3VDv2 degradation data is prepared, the data structure should be like this:
+After you get prepared, the data structure should be like this:
 
 ```text
 data/
@@ -82,6 +89,8 @@ utils/
 ```
 
 The default config uses `data/C3VDv2` as the dataset root. You can also pass another path with `--basedir` when running the scripts. If you want to use your own dataset, modify the dataloader or organize the data in the same structure.
+
+The benchmark split used in the paper is stored in `configs/c3vd/c3vdv2_degradation_sequences.txt`.
 
 ## Training and Evaluation
 
