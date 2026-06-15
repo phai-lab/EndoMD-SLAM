@@ -9,14 +9,14 @@
 </p>
 
 <p>
-  <b>Nuo Chen</b><sup>1*</sup>,
-  <b>Kangqi Ni</b><sup>2*</sup>,
-  <b>Lulin Liu</b><sup>1,3</sup>,
-  <b>Joga Ivatury</b><sup>4</sup>,
-  <b>Ying Ding</b><sup>4</sup>,
-  <b>Farshid Alambeigi</b><sup>4</sup>,
-  <b>Tianlong Chen</b><sup>2</sup>,
-  <b>Zhiwen Fan</b><sup>1</sup>
+  <a href="https://nuochen1203.github.io/"><b>Nuo Chen</b></a><sup>1*</sup>,
+  <a href="https://kangqi-ni.github.io/"><b>Kangqi Ni</b></a><sup>2*</sup>,
+  <a href="https://lulinliu.github.io/"><b>Lulin Liu</b></a><sup>1,3</sup>,
+  <a href="https://dellmed.utexas.edu/directory/joga-ivatury"><b>Joga Ivatury</b></a><sup>4</sup>,
+  <a href="https://yingding.ischool.utexas.edu/"><b>Ying Ding</b></a><sup>4</sup>,
+  <a href="https://me.utexas.edu/people/faculty-directory/alambeigi"><b>Farshid Alambeigi</b></a><sup>4</sup>,
+  <a href="https://tianlong-chen.github.io/"><b>Tianlong Chen</b></a><sup>2</sup>,
+  <a href="https://phai-lab.github.io/"><b>Zhiwen Fan</b></a><sup>1</sup>
   <br>
   <sup>1</sup>Texas A&amp;M University &nbsp;&nbsp;
   <sup>2</sup>UNC Chapel Hill &nbsp;&nbsp;
