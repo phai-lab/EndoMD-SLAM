@@ -36,7 +36,22 @@ The MASt3R `curope` CUDA RoPE extension is optional for this release path. If it
 
 ## Preparation
 
+We use the [C3VD](https://durrlab.github.io/C3VD/) dataset and the C3VDv2 degradation benchmark prepared from it. Please download the dataset from the official C3VD page and organize the processed C3VDv2 sequences following the structure below.
+
 Download the MASt3R checkpoints and put them under `MASt3R-SLAM/checkpoints`:
+
+```bash
+mkdir -p MASt3R-SLAM/checkpoints
+
+wget https://download.europe.naverlabs.com/ComputerVision/MASt3R/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric.pth \
+  -P MASt3R-SLAM/checkpoints/
+wget https://download.europe.naverlabs.com/ComputerVision/MASt3R/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric_retrieval_trainingfree.pth \
+  -P MASt3R-SLAM/checkpoints/
+wget https://download.europe.naverlabs.com/ComputerVision/MASt3R/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric_retrieval_codebook.pkl \
+  -P MASt3R-SLAM/checkpoints/
+```
+
+After preparation, the checkpoints should be:
 
 ```text
 MASt3R-SLAM/checkpoints/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric.pth
@@ -44,22 +59,29 @@ MASt3R-SLAM/checkpoints/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric_retriev
 MASt3R-SLAM/checkpoints/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric_retrieval_codebook.pkl
 ```
 
-Prepare the C3VDv2 degradation dataset. After preparation, the data structure should be like this:
+After the C3VDv2 degradation data is prepared, the data structure should be like this:
 
 ```text
 data/
   C3VDv2/
     c1_cecum_t1_v2/
       color/
+        0000_color.png
+        0001_color.png
+        ...
       depth/
+        0000_depth.tiff
+        0001_depth.tiff
+        ...
       pose.txt
+    c1_sigmoid1_t1_v3/
     ...
 configs/
 scripts/
 utils/
 ```
 
-If you want to use your own dataset, modify the dataloader or organize the data in the same structure.
+The default config uses `data/C3VDv2` as the dataset root. You can also pass another path with `--basedir` when running the scripts. If you want to use your own dataset, modify the dataloader or organize the data in the same structure.
 
 ## Training and Evaluation
 
