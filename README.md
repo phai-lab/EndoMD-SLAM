@@ -1,6 +1,19 @@
-# Official Code Implementation for EndoMD-SLAM
+<div align="center">
 
-> EndoMD-SLAM: Endoscopic Gaussian Splatting SLAM under Optical Degradation with Memory and Static-Transient Decomposition.
+# EndoMD-SLAM: Endoscopic Gaussian Splatting SLAM under Optical Degradation with Memory and Static-Transient Decomposition
+
+<p>
+  <a href="https://github.com/phai-lab/EndoMD-SLAM"><img src="https://img.shields.io/badge/Code-GitHub-181717" alt="Code"></a>
+  <a href="https://drive.google.com/open?id=1ZIwVBhG1EkHJU3KLyrnnIYYK-rTmUfuO"><img src="https://img.shields.io/badge/Data-Google%20Drive-4285F4" alt="Data"></a>
+</p>
+
+<p>
+  <b>Anonymous Authors</b>
+</p>
+
+<img src="assets/teaser.png" alt="EndoMD-SLAM teaser" width="96%">
+
+</div>
 
 ## Requirements
 
