@@ -1,0 +1,5 @@
+inherit: "config/endo_loose.yaml"
+
+# Enable calibrated tracking (requires intrinsics K to be provided by the caller).
+use_calib: True
+

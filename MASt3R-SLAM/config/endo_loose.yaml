@@ -1,0 +1,15 @@
+inherit: "config/base.yaml"
+
+# More robust / less strict tracking for challenging endoscopy sequences.
+# Primary goal: reduce tracking dropouts; accept noisier matches.
+
+matching:
+  max_iter: 15
+  dist_thresh: 2e-1
+
+tracking:
+  min_match_frac: 0.03
+  Q_conf: 0.9
+
+  # min_match_frac: 0.05
+  # Q_conf: 1.5
