@@ -70,22 +70,19 @@ After you get prepared, the data structure should be like this:
 
 ```text
 data/
-  C3VDv2/
-    c1_cecum_t1_v2/
-      color/
-        0000_color.png
-        0001_color.png
-        ...
-      depth/
-        0000_depth.tiff
-        0001_depth.tiff
-        ...
-      pose.txt
-    c1_sigmoid1_t1_v3/
-    ...
-configs/
-scripts/
-utils/
+└── C3VDv2/
+    ├── c1_cecum_t1_v2/
+    │   ├── color/
+    │   │   ├── 0000_color.png
+    │   │   ├── 0001_color.png
+    │   │   └── ...
+    │   ├── depth/
+    │   │   ├── 0000_depth.tiff
+    │   │   ├── 0001_depth.tiff
+    │   │   └── ...
+    │   └── pose.txt
+    ├── c1_sigmoid1_t1_v3/
+    └── ...
 ```
 
 The default config uses `data/C3VDv2` as the dataset root. You can also pass another path with `--basedir` when running the scripts. If you want to use your own dataset, modify the dataloader or organize the data in the same structure.
