@@ -1,6 +1,6 @@
 # Official Code Implementation for EndoMD-SLAM
 
-> EndoMD-SLAM: robust online endoscopic reconstruction and tracking under visual degradations.
+> EndoMD-SLAM: Endoscopic Gaussian Splatting SLAM under Optical Degradation with Memory and Static-Transient Decomposition.
 
 ## Requirements
 
