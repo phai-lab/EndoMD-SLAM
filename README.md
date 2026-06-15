@@ -10,7 +10,21 @@
 </p>
 
 <p>
-  <b>Anonymous Authors</b>
+  <b>Nuo Chen</b><sup>1*</sup>,
+  <b>Kangqi Ni</b><sup>2*</sup>,
+  <b>Lulin Liu</b><sup>1,3</sup>,
+  <b>Joga Ivatury</b><sup>4</sup>,
+  <b>Ying Ding</b><sup>4</sup>,
+  <b>Farshid Alambeigi</b><sup>4</sup>,
+  <b>Tianlong Chen</b><sup>2</sup>,
+  <b>Zhiwen Fan</b><sup>1</sup>
+  <br>
+  <sup>1</sup>Texas A&amp;M University &nbsp;&nbsp;
+  <sup>2</sup>UNC Chapel Hill &nbsp;&nbsp;
+  <sup>3</sup>University of Minnesota &nbsp;&nbsp;
+  <sup>4</sup>UT Austin
+  <br>
+  <sup>*</sup>Equal contribution.
 </p>
 
 <img src="assets/teaser.png" alt="EndoMD-SLAM teaser" width="96%">
