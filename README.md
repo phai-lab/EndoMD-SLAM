@@ -5,7 +5,6 @@
 <p>
   <a href="https://endomd-slam.github.io/"><img src="https://img.shields.io/badge/Project-Page-6f42c1" alt="Project Page"></a>
   <img src="https://img.shields.io/badge/Paper-Coming%20Soon-b31b1b" alt="Paper Coming Soon">
-  <a href="https://github.com/phai-lab/EndoMD-SLAM"><img src="https://img.shields.io/badge/Code-GitHub-181717" alt="Code"></a>
   <a href="https://drive.google.com/open?id=1ZIwVBhG1EkHJU3KLyrnnIYYK-rTmUfuO"><img src="https://img.shields.io/badge/Data-Google%20Drive-4285F4" alt="Data"></a>
 </p>
 
